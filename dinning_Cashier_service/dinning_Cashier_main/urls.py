@@ -21,7 +21,4 @@ urlpatterns = [
 
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
-
-
-    url(r'^api//', include('planilla_api.urls')),
 ]

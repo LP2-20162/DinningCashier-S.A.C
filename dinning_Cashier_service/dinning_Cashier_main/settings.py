@@ -42,8 +42,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'oauth2_provider',
 
-    'planilla',
-    'planilla_api',
+    'usuario',
+    'usuario_api',
 ]
 
 MIDDLEWARE = [
@@ -131,4 +131,4 @@ REST_FRAMEWORKx = {
     )
 }
 
-AUTH_USER_MODEL = 'planilla.User'
+AUTH_USER_MODEL = 'usuario.User'
