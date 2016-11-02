@@ -21,3 +21,4 @@ app.run(function(localStorageService, $window) {
         $window.location = 'http://localhost:8001/dinning_Cashier_web/#/login';
     }
 });
+

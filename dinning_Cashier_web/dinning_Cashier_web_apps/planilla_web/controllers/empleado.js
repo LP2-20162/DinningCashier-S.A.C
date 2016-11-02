@@ -2,6 +2,7 @@ app
 
     .controller('EmpleadoCtr', function($scope, $window, planillaService) {
 
+    
     $scope.empleado = {};
     $scope.lista = [];
 
@@ -61,8 +62,10 @@ app
             }, function(err) {
                 console.log("Hay error");
             });
-        };
+        }
     };
 
 
 });
+
+

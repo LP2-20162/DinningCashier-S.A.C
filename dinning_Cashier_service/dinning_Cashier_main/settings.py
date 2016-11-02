@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     # 'usuario',
     #'usuario_api',
 
-    'caja',
-    'caja_api',
+    'caja.usuario',
+    'caja.usuario_api',
 ]
 
 MIDDLEWARE = [
@@ -134,4 +134,4 @@ REST_FRAMEWORKx = {
     )
 }
 
-AUTH_USER_MODEL = 'caja.User'
+AUTH_USER_MODEL = 'usuario.User'
