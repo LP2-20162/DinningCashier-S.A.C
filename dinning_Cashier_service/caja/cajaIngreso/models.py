@@ -14,7 +14,11 @@ class Caja(models.Model):
     #numDocumento = models.CharField(max_lenght=9, null=True, blank=True)
     entregadoA = models.CharField(max_length=60, null=True, blank=True)
     fecha = models.DateTimeField(max_length=60, null=True, blank=True)
+<<<<<<< HEAD
     #precio = models.DecimalField(max_digits=5, decimal_place=2)
+=======
+    #precio = models.DecimalField(max_digits=5)
+>>>>>>> bffca20c1ce4e759ba6c0457408e1d7b512c082a
     sucursal = models.IntegerField(default=170)
     total = models.CharField(max_length=60, null=True, blank=True)
 
