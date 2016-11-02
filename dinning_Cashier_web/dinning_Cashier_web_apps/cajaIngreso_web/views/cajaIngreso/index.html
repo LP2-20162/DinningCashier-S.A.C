@@ -1,0 +1,48 @@
+<div ng-controller='CajaCtr'>
+        <br />anulado
+        <input ng-model="caja.anulado" required/>
+        <br />concepto
+        <input ng-model="caja.concepto" />
+        <br />cuenta Empresa
+        <input ng-model="caja.cuentaEmpresa" />
+        <br />Cuenta Cliente
+        <input ng-model="caja.cuentaCliente" />
+        <br />Cuenta Ganancia
+        <input ng-model="caja.cuentaGanancia" />
+        <br />Cuenta Venta
+        <input ng-model="caja.cuentaVenta" />
+        <br />Numero Documento
+        <input ng-model="caja.numDocumento" />
+        <br />Entregado A
+        <input ng-model="caja.entregadoA" />
+        <br />Fecha
+        <input ng-model="caja.fecha" />
+        <br />Precio
+        <input ng-model="caja.precio" />
+        <br />Sucursal
+        <input ng-model="caja.sucursal" />
+        <br />Total
+        <input ng-model="caja.total" />
+
+        <br/> <button type="button" ng-click="save()">Save</button>
+
+<table>
+<tr ng-repeat="d in lista">
+	<td> {{d.anulado }} </td>
+        <td> {{d.concepto }} </td>
+        <td> {{d.cuentaEmpresa }} </td>
+        <td> {{d.cuentaCliente }} </td>
+        <td> {{d.cuentaGanancia }} </td>
+        <td> {{d.cuentaVenta }} </td>
+        <td> {{d.numDocumento }} </td>
+        <td> {{d.entregadoA }} </td>
+        <td> {{d.fecha }} </td>
+        <td> {{d.precio }} </td>
+        <td> {{d.sucursal }} </td>
+        <td> {{d.total }} </td>
+	<td> <a href="" ng-click="sel(d)">Edit</a> </td>
+	<td> <a href="" ng-click="delete(d)">x</a> </td>
+
+</tr>
+</table>
+

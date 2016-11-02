@@ -47,6 +47,9 @@ INSTALLED_APPS = [
 
     'caja.usuario',
     'caja.usuario_api',
+
+    'caja.cajaIngreso',
+    'caja.cajaIngreso_api',
 ]
 
 MIDDLEWARE = [
