@@ -42,8 +42,11 @@ INSTALLED_APPS = [
     'corsheaders',
     'oauth2_provider',
 
-    'usuario',
-    'usuario_api',
+    # 'usuario',
+    #'usuario_api',
+
+    'caja',
+    'caja_api',
 ]
 
 MIDDLEWARE = [
@@ -131,4 +134,4 @@ REST_FRAMEWORKx = {
     )
 }
 
-AUTH_USER_MODEL = 'usuario.User'
+AUTH_USER_MODEL = 'caja.User'

@@ -1,4 +1,4 @@
 from django.contrib import admin
-from usuario.models import User
+from caja.models import User
 
 admin.site.register(User)
