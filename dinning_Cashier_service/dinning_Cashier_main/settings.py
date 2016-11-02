@@ -48,18 +48,24 @@ INSTALLED_APPS = [
     'caja.usuario',
     'caja.usuario_api',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'caja.contAnual',
     'caja.contAnual_api',
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4eb619abf96e22ca493afa4671b48514a66d3731
 
     'caja.cajaIngreso',
     'caja.cajaIngreso_api',
-=======
+
     'caja.nivelEmpresa',
     'caja.nivelEmpresa_api',
+<<<<<<< HEAD
 >>>>>>> ef7f3488bfc70369d1c4feb4dcc9e66ee09ffd64
 >>>>>>> 22a7ed1faa8cdf3bc9f165101af43d76e670c585
+=======
+>>>>>>> 4eb619abf96e22ca493afa4671b48514a66d3731
 ]
 
 MIDDLEWARE = [
